@@ -1,0 +1,27 @@
+
+.product-card{
+    max-width:300px;
+    border: 2px solid white;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%); 
+}
+
+.product-card div{
+    margin: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.product-card p{
+    font-size: 1.6em;
+}
+.product-card h2{
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: .1em;
+}
+
+.product-card button{
+    display: block;
+    padding: 1em 2em;
+    margin: 3em auto 1em;
+}

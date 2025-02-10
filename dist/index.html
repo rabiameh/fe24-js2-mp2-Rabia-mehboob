@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <link rel="stylesheet" href="/index.34df27b5.css">
+    <link rel="stylesheet" href="/index.358122eb.css">
+    <link rel="stylesheet" href="/index.dbf0b460.css">
+
+    <script src="/index.b7a05eb9.js" defer=""></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <form id="filterForm">
+        <img class="icon" src="/filtericon.883b9691.svg" alt="">
+        <select name="category" id="category">
+          <option value="">All Categories</option>
+          <option value="beauty">Beauty</option>
+          <option value="fragrances">Fragrances</option>
+          <option value="furniture">Furniture</option>
+          <option value="groceries">Groceries</option>
+        </select>
+        <input type="number" name="max-price" id="maxPrice" placeholder="Max Price">
+        <button>Apply Filters</button>
+      </form>
+      <form id="sortForm">
+        <img class="icon" src="/sorticon.60862dcd.svg" alt="">
+        <select name="" id="sortSelect">
+          <option value="default">Default</option>
+          <option value="price-asc">Price - low to high</option>
+          <option value="price-des">Price - high to low</option>
+          <option value="rate-asc">Rating - low to high</option>
+          <option value="rate-des">Rating - high to low</option>
+        </select>
+      </form>
+    </header>
+    <main>
+      <div id="productCardContainer" class="flex-container"></div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+form {
+  max-width: var(--max-width);
+  flex-flow: wrap;
+  justify-content: center;
+  padding: .3rem;
+  display: flex;
+}
+
+form * {
+  margin: .2rem;
+}
+
+form button {
+  padding: 0 2em;
+}
+
+select, input {
+  background-color: var(--black);
+  color: #fff;
+  padding: 3px 12px;
+}
+
+input[type="number"] {
+  text-align: right;
+  width: 80px;
+}
+
+.icon {
+  width: 20px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*# sourceMappingURL=index.358122eb.css.map */
